@@ -1,18 +1,11 @@
-//One line comment
+#include <iostream>// This brings in the iostream library
 
-//This brings in the iostream library
-#include <iostream>
-
-/*
-    This is a block comment that englobes multiple
-    lines of text
+/*This is a multiline comment
+wohohwo
 */
-
-
-
-
-int main(){
-    //This is going to print "Hello World" to the console
+int main()
+{
+    // this is a single line comment
     std::cout << "Hello World!" << std::endl;
     return 0;
     //Program ends here
